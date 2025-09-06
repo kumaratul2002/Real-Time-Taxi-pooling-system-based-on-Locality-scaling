@@ -2,7 +2,6 @@ import {React,useEffect,useState} from 'react';
 import Navbar from './Navbar';
 import About from './About';
 import Contact from './Contact';
-import './App.css';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Home';

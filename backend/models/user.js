@@ -4,6 +4,11 @@ const userShema = mongoose.Schema({
   name: {
     type: String,
   },
+  userId: {
+    type: String,
+    required: true,
+    description: "Auth0 user ID (user.sub)"
+  },
   time:{
     type:Date,
   },
